@@ -1,0 +1,77 @@
+.container-contact-page {
+    background-image: url("https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2020/10/pulau-padar.jpg");
+    height: 60vh;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+  }
+  .container-contact-page .wrapper-description{
+      font-size: 15px;
+      color: white;
+  }
+
+  .btn-wa{
+    background-color: #F8A23D;
+    border: 1px solid #F8A23D;
+    color: #202020;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 24px;
+
+  }
+
+  .btn-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .btn-wa .btn-wrapper img{
+      width: 35px;
+      height: 35px;
+      
+  }
+  .wrapper-contact-detail{
+        background-color: rgb(46, 170, 83);
+        color: white;
+        padding: 4rem;
+        border-radius: 1rem;
+        display: flex;
+        gap: 2rem;
+
+  }
+
+  .fa-building{
+    font-size: 30px;
+      color: white;
+  }
+
+  .contact-item-header{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+  }
+  .contact-item-header p{
+      font-size: 20px;
+
+
+  }
+  .contact-item p{
+      font-size: 16px;
+  }
+
+  .contact-item{
+      max-width: 300px;
+      flex: 1;
+  }
+
+  

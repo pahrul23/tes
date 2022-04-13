@@ -1,0 +1,30 @@
+.row-profil{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+.row-profil image{
+    text-align: center;
+
+}
+
+.profil-description{
+    text-transform: none;
+    line-height: 20px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.profile-title{
+    text-align: center;
+    font-size: 25px;
+}
+
+.peta iframe {
+    text-align: center;
+    align-items: center;
+    
+}
